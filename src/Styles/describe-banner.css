@@ -1,0 +1,23 @@
+.logo {
+  width: 166px;
+  height: 32px;
+  margin-left: 50;
+}
+span {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: moderat-regular, sans-serif;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  margin-right: 50;
+}
+p {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  font-family: moderat-medium, sans-serif;
+  text-transform: none;
+  max-width: 32ch;
+  margin-bottom: 0px;
+  text-rendering: optimizeLegibility;
+}
