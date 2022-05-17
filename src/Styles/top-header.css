@@ -1,0 +1,23 @@
+.th-background {
+  background-color: black;
+  color: white;
+  height: 100;
+  width: 100%;
+  position: fixed;
+
+  font-size: 12px;
+  font-family: moderat-medium, sans-serif;
+}
+.th-text {
+  font-weight: bolder;
+}
+.th-shop-now {
+  text-decoration: underline;
+  color: white;
+}
+.th-shop-now:hover {
+  color: white;
+}
+.th-nav:hover {
+  opacity: 0.5;
+}
