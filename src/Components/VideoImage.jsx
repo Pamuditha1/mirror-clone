@@ -4,12 +4,12 @@ import "../Styles/image-overlay.css";
 
 import { BsFillCaretRightFill } from "react-icons/bs";
 
-function VideoImage({ showModal }) {
+function VideoImage({ handleOpenModal }) {
   return (
-    <div className="container mt-5 image-div">
+    <div className="container mt-5 mb-5 image-div">
       {" "}
       <img src={backup} alt="CommercialBackUp" style={{ width: "100%" }} />
-      <button className="o-button">
+      <button className="o-button" onClick={handleOpenModal}>
         <span>
           Play <BsFillCaretRightFill />
         </span>

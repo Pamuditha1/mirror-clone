@@ -1,0 +1,18 @@
+.content {
+  width: 390px;
+  margin: 10px;
+}
+.image {
+  border-radius: 20px;
+  transition: transform 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s;
+  width: 390px;
+  height: 486px;
+  margin: 10px;
+}
+.image:hover {
+  transform: scale(1.03);
+}
+.des {
+  color: rgb(100, 101, 103);
+  font-size: 16px;
+}
