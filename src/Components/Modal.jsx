@@ -1,32 +1,31 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import ReactModal from "react-modal";
+import "../Styles/modal.css";
 
-function Modal({ modalShow, hideModal }) {
+function Modal({ modalOpen, handleOpenModal, handleCloseModal }) {
   return (
-    <Modal
-      show={false}
-      onHide={hideModal}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
+    <ReactModal
+      isOpen={modalOpen}
+      className="container m-content"
+      overlayElement={(props, contentElement) => (
+        <div {...props}>{contentElement}</div>
+      )}
     >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={hideModal}>Close</Button>
-      </Modal.Footer>
-    </Modal>
+      <div className="frame">
+        {" "}
+        <button className="btn" onClick={handleCloseModal}>
+          X
+        </button>
+        <iframe
+          title="vimeo-player"
+          src="https://player.vimeo.com/video/642372830?h=dab7b74863"
+          width="906"
+          height="511"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </ReactModal>
   );
 }
 
