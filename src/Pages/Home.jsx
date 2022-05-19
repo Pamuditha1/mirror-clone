@@ -7,6 +7,7 @@ import video1 from "../media/videos/2021HomepageLoopFinal_updated.mp4";
 import Banner3 from "../components/Banner3";
 import Modal from "../components/Modal";
 import Sider from "../components/Sider";
+import VideoBanner from "../components/VideoBanner";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -27,6 +28,7 @@ function Home() {
       <Banner2 />
       <Banner3 />
       <Sider />
+      <VideoBanner />
       <Modal
         modalOpen={modalOpen}
         handleOpenModal={handleOpenModal}

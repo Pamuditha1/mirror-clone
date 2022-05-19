@@ -1,0 +1,52 @@
+.overlay-div {
+  position: relative;
+  width: 100%;
+  left: 0px;
+  top: -950px;
+  height: 950px;
+  background: transparent;
+  z-index: +2;
+}
+
+.content-dev {
+  height: 100%;
+  align-items: center;
+}
+
+.t-button {
+  --padding: 22px;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  line-height: 1;
+  overflow: visible;
+  font-size: 100%;
+  margin: 0;
+}
+
+.b-h3 {
+  font-family: moderat-medium, sans-serif;
+  letter-spacing: -0.02em;
+  position: relative;
+  padding-left: var(--padding);
+  text-align: left;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.b-p {
+  padding-left: var(--padding);
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 35ch;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
