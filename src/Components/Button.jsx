@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/button.css";
+import "../styles/button.css";
 
 function Button({ filled, text, href }) {
   return (

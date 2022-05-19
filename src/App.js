@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import TopHeader from "./Components/TopHeader";
-import Home from "./Pages/Home";
+import TopHeader from "./components/TopHeader";
+import Home from "./pages/Home";
 
 function App() {
   return (

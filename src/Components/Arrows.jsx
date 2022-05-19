@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { VisibilityContext } from "react-horizontal-scrolling-menu";
 
-import "../Styles/sider.css";
+import "../styles/sider.css";
 
 function Arrow({ children, disabled, onClick }) {
   return (

@@ -1,7 +1,7 @@
 import Button from "./Button";
 import React from "react";
 import logo from "../media/images/Group 24166.webp";
-import "../Styles/describe-banner.css";
+import "../styles/describe-banner.css";
 
 function DescribeBanner() {
   return (

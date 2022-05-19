@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/card.css";
+import "../styles/card.css";
 
 function InstructorCard({ image, name, description }) {
   return (
