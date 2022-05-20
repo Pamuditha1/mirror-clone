@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../components/common/Button";
 import React from "react";
 import logo from "../media/images/Group 24166.webp";
 import "../styles/describe-banner.css";
@@ -22,14 +22,12 @@ function DescribeBanner() {
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-2">
+        <div className="col-12">
           <Button
             filled
             text="Experience Mirror"
             href="https://www.mirror.co/shop/mirror"
           />
-        </div>
-        <div className="col-3">
           <Button
             text="Explore Workouts"
             href="https://www.mirror.co/workouts"

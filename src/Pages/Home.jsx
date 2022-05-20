@@ -8,6 +8,10 @@ import Sider from "../components/Sider";
 import VideoBanner from "../components/VideoBanner";
 import VideoContainer from "../components/common/VideoContainer";
 import Banner from "../components/common/Banner";
+import ImageContainer from "../components/common/ImageContainer";
+import LookBanner from "../components/LookBanner";
+import StoreBanner from "../components/StoreBanner";
+import Footer from "../components/Footer";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -53,7 +57,23 @@ function Home() {
         bText="Explore Workouts"
         bLink="https://www.mirror.co/workouts"
       />
-      <VideoContainer url="https://res.cloudinary.com/themirror/video/upload/v1/ecom/production/2021/11/11/06/12/19/deb075f7-4a73-49be-b097-c651ad807107/WorkoutOrCompete.mp4" />
+      <VideoContainer
+        container
+        url="https://res.cloudinary.com/themirror/video/upload/v1/ecom/production/2021/11/11/06/12/19/deb075f7-4a73-49be-b097-c651ad807107/WorkoutOrCompete.mp4"
+      />
+      <Banner title="All used to create a personalized fitness plan just for you." />
+      <ImageContainer
+        height="500px"
+        url="https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/05/37/24/ff5bb8f9-b0c4-4aa9-a393-f040869eecaf/GymMembershipforFamily.jpg"
+      >
+        <div style={{ marginTop: "35%" }}>
+          <h1 className="line">A gym membership for the whole family.</h1>
+        </div>
+      </ImageContainer>
+      <LookBanner />
+      <StoreBanner />
+      <Footer />
+
       <Modal
         modalOpen={modalOpen}
         handleOpenModal={handleOpenModal}

@@ -15,7 +15,7 @@ function Banner({ subTitle, title, bText, bLink, bFilled }) {
             </span>
             <h2 className="title">{title}</h2>
             <div className="col-4 mt-4">
-              <Button filled={bFilled} text={bText} href={bLink} />
+              {bText && <Button filled={bFilled} text={bText} href={bLink} />}
             </div>
           </div>
         </div>

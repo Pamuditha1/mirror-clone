@@ -1,0 +1,57 @@
+.overlay-div {
+  position: relative;
+  width: 100%;
+  left: 0px;
+  top: -950px;
+  height: 950px;
+  background: transparent;
+  z-index: +2;
+}
+.content-dev {
+  height: 100%;
+  align-items: center;
+}
+
+.line {
+  color: white;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.h1-look {
+  font-size: 160px;
+  line-height: 1.12;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.blur-div {
+  position: absolute;
+  bottom: 0px;
+  height: 25%;
+  content: "";
+  left: 0px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(40px);
+  width: 100%;
+}
+.img-text {
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.blur-h5 {
+  font-size: 26px;
+  line-height: 1.15;
+  color: white;
+  margin-left: 40px;
+}
+.blur-p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  margin-left: 40px;
+}
