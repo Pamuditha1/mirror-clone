@@ -115,6 +115,11 @@ footer {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+.a-insta:hover,
+.a-fb:hover,
+.a-twi:hover {
+  opacity: 0.75;
+}
 .a-fb {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIHZpZXdCb3g9IjAgMCA0NSA0NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIyMi41MDE4IiBjeT0iMjIuNDM5MyIgcj0iMjEuMDY4MiIgc3Ryb2tlPSIjNDk0OTQ5IiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDxwYXRoIGQ9Ik0yMy45MjA4IDIwLjI4NTlWMTguMjEzMkMyMy45MjA4IDE3LjY0MTEgMjQuMzYwNyAxNy4xNzY4IDI0LjkwMjYgMTcuMTc2OEgyNS44ODQ0VjE0LjU4NTlIMjMuOTIwOEMyMi4yOTM5IDE0LjU4NTkgMjAuOTc1NCAxNS45Nzc4IDIwLjk3NTQgMTcuNjk1VjIwLjI4NTlIMTkuMDExN1YyMi44NzY4SDIwLjk3NTRWMzEuMTY3OEgyMy45MjA4VjIyLjg3NjhIMjUuODg0NEwyNi44NjYzIDIwLjI4NTlIMjMuOTIwOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPg==");
 }
