@@ -1,9 +1,9 @@
 .overlay-div {
-  position: relative;
+  position: absolute;
   width: 100%;
   left: 0px;
-  top: -950px;
-  height: 950px;
+  top: 0px;
+  height: 100%;
   background: transparent;
   z-index: +2;
 }

@@ -188,34 +188,34 @@ function Footer() {
           </div>
           <div className="col-2">
             <ul className="ul-icons">
-              <ul class="ul-insta">
+              <ul className="ul-insta">
                 <a
                   href="https://www.instagram.com/getthemirror/"
                   className="a-insta"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span class="visually-hidden">Instagram</span>
+                  <span className="visually-hidden">Instagram</span>
                 </a>
               </ul>
-              <ul class="ul-fb">
+              <ul className="ul-fb">
                 <a
                   href="https://www.facebook.com/getthemirror"
                   className="a-fb"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span class="visually-hidden">Facebook</span>
+                  <span className="visually-hidden">Facebook</span>
                 </a>
               </ul>
-              <ul class="ul-twi">
+              <ul className="ul-twi">
                 <a
                   href="https://twitter.com/getthemirror"
                   className="a-twi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span class="visually-hidden">Twitter</span>
+                  <span className="visually-hidden">Twitter</span>
                 </a>
               </ul>
             </ul>
