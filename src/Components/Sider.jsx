@@ -2,7 +2,7 @@ import React from "react";
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
 import instructors from "../data/instructors.json";
 import InstructorCard from "./InstructorCard";
-import "../Styles/sider.css";
+import "../styles/sider.css";
 import { LeftArrow, RightArrow } from "./Arrows";
 
 function Sider() {

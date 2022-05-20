@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/top-header.css";
+import "../styles/top-header.css";
 import { BsFillBagFill } from "react-icons/bs";
 
 function TopHeader() {

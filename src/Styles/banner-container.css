@@ -1,0 +1,23 @@
+.banner-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sub-title {
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(154, 155, 156);
+}
+.title {
+  margin-top: 40px;
+  font-size: 58px;
+  line-height: 1.21;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: -0.03em;
+  text-transform: none;
+}

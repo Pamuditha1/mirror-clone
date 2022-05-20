@@ -13,6 +13,27 @@
     color 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.b-button-w,
+.e-button-w {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.02em;
+  font-family: moderat-medium, sans-serif;
+  padding: 15px 30px;
+  max-width: none;
+  border-radius: 50px;
+  transition: background 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s,
+    color 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .b-button {
@@ -25,6 +46,16 @@
   background: rgb(77, 77, 79);
   color: rgb(255, 255, 255);
 }
+.b-button-w {
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgb(26, 26, 26);
+}
+.b-button-w:focus,
+.b-button-w:hover {
+  background: rgba(224, 224, 228, 0.799);
+  color: rgb(26, 26, 26);
+}
 
 .e-button {
   background: transparent;
@@ -35,4 +66,14 @@
 .e-button:hover {
   background: rgb(26, 26, 26);
   color: rgb(255, 255, 255);
+}
+.e-button-w {
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.e-button-w:focus,
+.e-button-w:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
 }

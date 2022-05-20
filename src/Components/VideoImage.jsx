@@ -1,6 +1,6 @@
 import React from "react";
 import backup from "../media/images/CommercialBackUp.webp";
-import "../Styles/image-overlay.css";
+import "../styles/image-overlay.css";
 
 import { BsFillCaretRightFill } from "react-icons/bs";
 

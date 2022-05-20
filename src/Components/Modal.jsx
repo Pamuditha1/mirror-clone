@@ -1,6 +1,6 @@
 import React from "react";
 import ReactModal from "react-modal";
-import "../Styles/modal.css";
+import "../styles/modal.css";
 
 function Modal({ modalOpen, handleOpenModal, handleCloseModal }) {
   return (
