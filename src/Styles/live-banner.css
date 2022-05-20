@@ -1,0 +1,36 @@
+.con-div {
+  margin-top: 100px;
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  display: block;
+}
+.text-div {
+  position: relative;
+  width: 100%;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.text-arr {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  animation-play-state: running;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  will-change: transform;
+  animation: 15s linear 0s infinite normal none running ticker;
+}
+.text-sty {
+  font-size: 90px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: none;
+  padding: 0px 10px;
+  white-space: nowrap;
+  width: 25%;
+  flex: 0 0 25%;
+}

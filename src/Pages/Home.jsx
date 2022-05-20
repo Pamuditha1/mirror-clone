@@ -12,6 +12,7 @@ import ImageContainer from "../components/common/ImageContainer";
 import LookBanner from "../components/LookBanner";
 import StoreBanner from "../components/StoreBanner";
 import Footer from "../components/Footer";
+import LiveBanner from "../components/LiveBanner";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -72,6 +73,7 @@ function Home() {
       </ImageContainer>
       <LookBanner />
       <StoreBanner />
+      <LiveBanner />
       <Footer />
 
       <Modal
