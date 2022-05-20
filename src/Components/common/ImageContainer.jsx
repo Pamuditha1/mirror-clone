@@ -12,12 +12,18 @@ function ImageContainer({
 }) {
   return (
     <div
-      className={container && "container"}
-      style={{ height, marginTop: marginT, marginBottom: marginB }}
+      className={container ? "container" : ""}
+      style={{
+        height,
+        marginTop: marginT,
+        marginBottom: marginB,
+        position: "relative",
+        padding: 0,
+      }}
     >
       <img width={width} src={url} alt="cover" />
       <div className="overlay-div">
-        <div className="container" style={{ height: "100%" }}>
+        <div className="container px-0" style={{ height: "100%" }}>
           <div className="row p-5 content-dev">{children}</div>
         </div>
       </div>

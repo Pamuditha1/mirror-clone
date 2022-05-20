@@ -9,7 +9,7 @@ function VideoContainer({
 }) {
   return (
     <div
-      className={container && "container"}
+      className={container ? "container" : ""}
       style={{ marginTop: marginT, marginBottom: marginB }}
     >
       <video width={width} autoPlay muted loop>

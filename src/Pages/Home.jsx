@@ -12,6 +12,7 @@ import ImageContainer from "../components/common/ImageContainer";
 import LookBanner from "../components/LookBanner";
 import StoreBanner from "../components/StoreBanner";
 import Footer from "../components/Footer";
+import LiveBanner from "../components/LiveBanner";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -66,12 +67,13 @@ function Home() {
         height="500px"
         url="https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/05/37/24/ff5bb8f9-b0c4-4aa9-a393-f040869eecaf/GymMembershipforFamily.jpg"
       >
-        <div style={{ marginTop: "35%" }}>
+        <div>
           <h1 className="line">A gym membership for the whole family.</h1>
         </div>
       </ImageContainer>
       <LookBanner />
       <StoreBanner />
+      <LiveBanner />
       <Footer />
 
       <Modal
