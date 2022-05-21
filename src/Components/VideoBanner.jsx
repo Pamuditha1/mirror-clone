@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import videos from "../data/living-room-videos.json";
 import "../styles/video-banner.css";
+import VideoContainer from "./common/VideoContainer";
 
 const buttons = [
   {
@@ -37,44 +38,38 @@ function TButton({ id, title, text, clicked, setButtonClicked }) {
 }
 
 function VideoBanner() {
-  const [i, setI] = useState(0);
-  const [video, setVideo] = useState(videos[0]);
   const [clicked, setClicked] = useState(null);
+  const [currentUrlIdx, setCurrentUrlIdx] = useState(0);
 
   const setButtonClicked = (id) => {
     setClicked(id);
   };
 
-  useEffect(() => {
-    setVideo(videos[i]);
-  }, [i]);
-
-  const onEnded = () => {
-    setI((state) => state + 1);
+  const handleEnded = () => {
+    const nextUrlIdx = (currentUrlIdx + 1) % videos.length;
+    setCurrentUrlIdx(nextUrlIdx);
   };
+
   return (
-    <div>
-      <video width="100%" autoPlay muted onEnded={onEnded}>
-        <source src={video} type="video/mp4" />
-      </video>
-      <div className="overlay-div">
-        <div className="container" style={{ height: "100%" }}>
-          <div className="row p-5 content-dev">
-            <div className="col-6">
-              {buttons.map(({ id, title, text }) => (
-                <TButton
-                  id={id}
-                  title={title}
-                  text={text}
-                  clicked={clicked}
-                  setButtonClicked={setButtonClicked}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
+    <VideoContainer
+      url={videos[currentUrlIdx]}
+      handleEnded={handleEnded}
+      loop={false}
+    >
+      {" "}
+      <div className="col-6">
+        {buttons.map(({ id, title, text }) => (
+          <TButton
+            key={id}
+            id={id}
+            title={title}
+            text={text}
+            clicked={clicked}
+            setButtonClicked={setButtonClicked}
+          />
+        ))}
       </div>
-    </div>
+    </VideoContainer>
   );
 }
 
