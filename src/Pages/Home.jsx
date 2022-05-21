@@ -13,6 +13,7 @@ import StoreBanner from "../components/StoreBanner";
 import Footer from "../components/Footer";
 import LiveBanner from "../components/LiveBanner";
 import MembershipBanner from "../components/MembershipBanner";
+import Services from "../components/Services";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -65,6 +66,7 @@ function Home() {
       <Banner title="All used to create a personalized fitness plan just for you." />
       <MembershipBanner />
       <LookBanner />
+      <Services />
       <StoreBanner />
       <LiveBanner />
       <Footer />
