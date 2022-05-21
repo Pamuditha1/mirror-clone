@@ -1,0 +1,23 @@
+.h1-text {
+  color: white;
+  font-size: 86px;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+  font-weight: bold;
+}
+.sub-text {
+  font-size: 14px;
+  line-height: 1.174;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.explore-btn {
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+.explore {
+  margin-bottom: 0px;
+}

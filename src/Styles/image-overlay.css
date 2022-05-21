@@ -30,7 +30,7 @@ img {
   border-radius: 52px;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  transition: background 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s;
+  transition: background-color 0.2s cubic-bezier(0.28, 0.44, 0.49, 1) 0s;
 
   appearance: none;
   line-height: 1;

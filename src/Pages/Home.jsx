@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Banner2 from "../components/Banner2";
 import Banner1 from "../components/Banner1";
 import VideoImage from "../components/VideoImage";
-import video1 from "../media/videos/2021HomepageLoopFinal_updated.mp4";
 import Modal from "../components/Modal";
 import Sider from "../components/Sider";
 import VideoBanner from "../components/VideoBanner";
@@ -15,6 +14,7 @@ import LiveBanner from "../components/LiveBanner";
 import MembershipBanner from "../components/MembershipBanner";
 import Services from "../components/Services";
 import ShoppingItems from "../components/ShoppingItems";
+import StartingVideo from "../components/StartingVideo";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,9 +29,13 @@ function Home() {
 
   return (
     <>
-      <VideoContainer marginT="0px" url={video1} />
+      <StartingVideo />
       <Banner1 />
-      <VideoImage handleOpenModal={handleOpenModal} />
+      <VideoImage
+        modalOpen={modalOpen}
+        handleOpenModal={handleOpenModal}
+        handleCloseModal={handleCloseModal}
+      />
       <Banner2 />
       <Banner
         title="Taught by the best instructors in the world."

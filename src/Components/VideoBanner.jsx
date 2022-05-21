@@ -46,7 +46,6 @@ function VideoBanner() {
   };
 
   const handleEnded = () => {
-    console.log("ended", currentUrlIdx);
     const nextUrlIdx = (currentUrlIdx + 1) % videos.length;
     setCurrentUrlIdx(nextUrlIdx);
   };
