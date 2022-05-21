@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import videos from "../data/living-room-videos.json";
 import "../styles/video-banner.css";
+import VideoContainer from "./common/VideoContainer";
 
 const buttons = [
   {
@@ -45,39 +46,31 @@ function VideoBanner() {
   };
 
   const handleEnded = () => {
+    console.log("ended", currentUrlIdx);
     const nextUrlIdx = (currentUrlIdx + 1) % videos.length;
     setCurrentUrlIdx(nextUrlIdx);
   };
 
   return (
-    <div>
-      <video
-        width="100%"
-        src={videos[currentUrlIdx]}
-        autoPlay
-        muted
-        playsInline
-        onEnded={handleEnded}
-      />
-      <div className="overlay-div-v">
-        <div className="container" style={{ height: "100%" }}>
-          <div className="row p-5 content-dev">
-            <div className="col-6">
-              {buttons.map(({ id, title, text }) => (
-                <TButton
-                  key={id}
-                  id={id}
-                  title={title}
-                  text={text}
-                  clicked={clicked}
-                  setButtonClicked={setButtonClicked}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
+    <VideoContainer
+      url={videos[currentUrlIdx]}
+      handleEnded={handleEnded}
+      loop={false}
+    >
+      {" "}
+      <div className="col-6">
+        {buttons.map(({ id, title, text }) => (
+          <TButton
+            key={id}
+            id={id}
+            title={title}
+            text={text}
+            clicked={clicked}
+            setButtonClicked={setButtonClicked}
+          />
+        ))}
       </div>
-    </div>
+    </VideoContainer>
   );
 }
 

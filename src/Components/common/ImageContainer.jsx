@@ -25,7 +25,6 @@ function ImageContainer({
       <img width={width} src={url} alt="cover" />
       <div className="overlay-div">
         <div
-          // className="px-0"
           className={`px-0 ${contentFullWidth ? "" : "container"}`}
           style={{ height: "100%" }}
         >
