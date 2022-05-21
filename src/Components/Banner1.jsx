@@ -2,10 +2,11 @@ import Button from "../components/common/Button";
 import React from "react";
 import logo from "../media/images/Group 24166.webp";
 import "../styles/describe-banner.css";
+import BannerContainer from "./common/BannerContainer";
 
 function DescribeBanner() {
   return (
-    <div className="container mt-5 mb-5">
+    <BannerContainer>
       <div className="row">
         <div className="col-12">
           <span>Brought to you by</span>
@@ -34,7 +35,7 @@ function DescribeBanner() {
           />
         </div>
       </div>
-    </div>
+    </BannerContainer>
   );
 }
 

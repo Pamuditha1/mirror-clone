@@ -4,6 +4,7 @@ import "../../styles/image-container.css";
 function ImageContainer({
   url,
   container = false,
+  contentFullWidth = false,
   height = "100%",
   width = "100%",
   marginT = "100px",
@@ -23,8 +24,11 @@ function ImageContainer({
     >
       <img width={width} src={url} alt="cover" />
       <div className="overlay-div">
-        <div className="container px-0" style={{ height: "100%" }}>
-          <div className="row p-5 content-dev">{children}</div>
+        <div
+          className={`px-0 ${contentFullWidth ? "" : "container"}`}
+          style={{ height: "100%" }}
+        >
+          <div className="row content-dev">{children}</div>
         </div>
       </div>
     </div>
