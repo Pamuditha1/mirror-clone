@@ -14,6 +14,7 @@ import Footer from "../components/Footer";
 import LiveBanner from "../components/LiveBanner";
 import MembershipBanner from "../components/MembershipBanner";
 import Services from "../components/Services";
+import ShoppingItems from "../components/ShoppingItems";
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -67,6 +68,7 @@ function Home() {
       <MembershipBanner />
       <LookBanner />
       <Services />
+      <ShoppingItems />
       <StoreBanner />
       <LiveBanner />
       <Footer />
