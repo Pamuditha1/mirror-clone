@@ -1,0 +1,26 @@
+.text-div-mem {
+  position: relative;
+  width: 100%;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.text-mem {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  animation-play-state: running;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  will-change: transform;
+  /* animation: 15s linear 0s infinite normal none running ticker; */
+  animation: mover 35s infinite linear;
+}
+@keyframes mover {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -200%;
+  }
+}
