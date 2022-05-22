@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Banner2 from "../components/Banner2";
 import Banner1 from "../components/Banner1";
 import VideoImage from "../components/VideoImage";
-import Modal from "../components/Modal";
 import Sider from "../components/Sider";
 import VideoBanner from "../components/VideoBanner";
 import VideoContainer from "../components/common/VideoContainer";
@@ -15,16 +14,28 @@ import MembershipBanner from "../components/MembershipBanner";
 import Services from "../components/Services";
 import ShoppingItems from "../components/ShoppingItems";
 import StartingVideo from "../components/StartingVideo";
+import VideoModal from "../components/VideoModal";
+import ServiceModal from "../components/ServiceModal";
 
 function Home() {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modal1Open, setModal1Open] = useState(false);
+  const [modal2, setModal2] = useState({ open: false, title: "", des: "" });
 
-  const handleOpenModal = () => {
-    setModalOpen(true);
+  const handleOpen1Modal = () => {
+    setModal1Open(true);
   };
 
-  const handleCloseModal = () => {
-    setModalOpen(false);
+  const handleClose1Modal = () => {
+    setModal1Open(false);
+  };
+
+  const handleOpen2Modal = ({ title, des }) => {
+    console.log("called");
+    setModal2({ open: true, title, des });
+  };
+
+  const handleClose2Modal = () => {
+    setModal2({ ...modal2, open: false });
   };
 
   return (
@@ -32,9 +43,9 @@ function Home() {
       <StartingVideo />
       <Banner1 />
       <VideoImage
-        modalOpen={modalOpen}
-        handleOpenModal={handleOpenModal}
-        handleCloseModal={handleCloseModal}
+        modalOpen={modal1Open}
+        handleOpenModal={handleOpen1Modal}
+        handleCloseModal={handleClose1Modal}
       />
       <Banner2 />
       <Banner
@@ -71,16 +82,20 @@ function Home() {
       <Banner title="All used to create a personalized fitness plan just for you." />
       <MembershipBanner />
       <LookBanner />
-      <Services />
+      <Services handleOpenModal={handleOpen2Modal} />
       <ShoppingItems />
       <StoreBanner />
       <LiveBanner />
       <Footer />
-
-      <Modal
-        modalOpen={modalOpen}
-        handleOpenModal={handleOpenModal}
-        handleCloseModal={handleCloseModal}
+      <VideoModal
+        modalOpen={modal1Open}
+        handleOpenModal={handleOpen1Modal}
+        handleCloseModal={handleClose1Modal}
+      />
+      <ServiceModal
+        modal={modal2}
+        handleOpenModal={handleOpen2Modal}
+        handleCloseModal={handleClose2Modal}
       />
     </>
   );
