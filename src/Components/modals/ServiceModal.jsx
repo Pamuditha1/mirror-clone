@@ -1,5 +1,5 @@
 import React from "react";
-import Modal from "./Modal";
+import Modal from "../common/Modal";
 
 function ServiceModal({ modal, handleOpenModal, handleCloseModal }) {
   return (

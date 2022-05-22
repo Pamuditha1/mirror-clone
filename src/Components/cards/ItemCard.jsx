@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./common/Button";
-import "../styles/items.css";
+import Button from "../common/Button";
+import "../../styles/items.css";
 
 function ItemCard({ img, title, price, priceText, includes }) {
   return (

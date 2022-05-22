@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import ReviewsCards from "./ReviewsCards";
 import ReactStars from "react-rating-stars-component";
-import "../styles/reviews.css";
+import ReviewsCards from "./ReviewsCards";
 import Button from "./common/Button";
+import "../styles/reviews.css";
 
 const reviewTitles = [
   "Workouts",

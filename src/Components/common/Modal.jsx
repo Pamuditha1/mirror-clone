@@ -1,6 +1,6 @@
 import React from "react";
 import ReactModal from "react-modal";
-import "../styles/modal.css";
+import "../../styles/modal.css";
 
 function Modal({ children, modalOpen, handleCloseModal, overlayStyles }) {
   return (

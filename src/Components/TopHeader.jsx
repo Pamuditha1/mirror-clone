@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/top-header.css";
 import { BsFillBagFill } from "react-icons/bs";
+import "../styles/top-header.css";
 
 function TopHeader() {
   return (

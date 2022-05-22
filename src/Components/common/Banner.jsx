@@ -1,7 +1,6 @@
 import React from "react";
 import BannerContainer from "./BannerContainer";
 import Button from "./Button";
-
 import "../../styles/banner-container.css";
 
 function Banner({ subTitle, title, bText, bLink, bFilled }) {

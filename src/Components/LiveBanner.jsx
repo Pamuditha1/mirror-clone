@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../styles/live-banner.css";
 import { BsArrowRight } from "react-icons/bs";
+import "../styles/live-banner.css";
 
 function LiveBanner() {
   const [email, setEmail] = useState("");

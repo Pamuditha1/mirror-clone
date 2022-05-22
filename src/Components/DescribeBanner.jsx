@@ -1,8 +1,8 @@
-import Button from "../components/common/Button";
+import Button from "./common/Button";
 import React from "react";
 import logo from "../media/images/Group 24166.webp";
-import "../styles/describe-banner.css";
 import BannerContainer from "./common/BannerContainer";
+import "../styles/describe-banner.css";
 
 function DescribeBanner() {
   return (
@@ -16,7 +16,7 @@ function DescribeBanner() {
       </div>
       <div className="row mt-5">
         <div className="col-7">
-          <p className="b-p">
+          <p className="des-p">
             This is more than a mirror. It’s the ultimate smart home gym. With
             the most workout variety. That actually looks good in your home.
           </p>
