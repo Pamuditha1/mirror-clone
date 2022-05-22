@@ -16,3 +16,13 @@
   margin-top: 15%;
   margin: auto;
 }
+.modal2-h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+.modal2-p {
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.02em;
+}

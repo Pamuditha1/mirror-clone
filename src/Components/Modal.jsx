@@ -2,9 +2,10 @@ import React from "react";
 import ReactModal from "react-modal";
 import "../styles/modal.css";
 
-function Modal({ modalOpen, handleOpenModal, handleCloseModal }) {
+function Modal({ children, modalOpen, handleCloseModal, overlayStyles }) {
   return (
     <ReactModal
+      style={{ overlay: overlayStyles }}
       isOpen={modalOpen}
       className="container m-content"
       overlayElement={(props, contentElement) => (
@@ -16,14 +17,7 @@ function Modal({ modalOpen, handleOpenModal, handleCloseModal }) {
         <button className="btn" onClick={handleCloseModal}>
           X
         </button>
-        <iframe
-          title="vimeo-player"
-          src="https://player.vimeo.com/video/642372830?h=dab7b74863"
-          width="906"
-          height="511"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
+        {children}
       </div>
     </ReactModal>
   );
