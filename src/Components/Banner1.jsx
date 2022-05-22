@@ -9,14 +9,14 @@ function DescribeBanner() {
     <BannerContainer>
       <div className="row">
         <div className="col-12">
-          <span>Brought to you by</span>
+          <span className="b-span">Brought to you by</span>
           {"  "}
           <img src={logo} alt="Logo" className="logo" />
         </div>
       </div>
       <div className="row mt-5">
         <div className="col-7">
-          <p>
+          <p className="b-p">
             This is more than a mirror. It’s the ultimate smart home gym. With
             the most workout variety. That actually looks good in your home.
           </p>

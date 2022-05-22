@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/services.css";
 
-function ServiceCard({ icon, title, description }) {
+function ServiceCard({ icon, title, description, modalDes, handleOpenModal }) {
   return (
     <div className="row">
       <div className="col-12">
@@ -15,7 +15,15 @@ function ServiceCard({ icon, title, description }) {
           <p className="card-des">{description}</p>
         </div>
         <div className="row">
-          <span className="card-link">Learn more</span>
+          <span
+            className="card-link"
+            onClick={() => {
+              console.log("clicked");
+              handleOpenModal({ title, des: modalDes });
+            }}
+          >
+            Learn more
+          </span>
         </div>
       </div>
     </div>

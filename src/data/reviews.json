@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "title": "Workouts",
+    "reviews": [
+      {
+        "rating": 5,
+        "main": "My whole life changed",
+        "content": "When quarantine hit, I decided to put all of my effort into working on myself; mentally and physically. Mirror is a great tool for both. I got stronger, lost weight, and found emotional motivation to keep going. My whole life changed.",
+        "user": "Allison",
+        "city": "Minnesota",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/5765e33c-d96c-4a3a-8709-9e6713b1a466/Allison.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Helping me learn",
+        "content": "I've never been an athletic person so The Mirror is helping me learn about movement, how to use my body, how to become an athlete, and how to stay consistent.",
+        "user": "Lani",
+        "city": "Washington",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/d03af442-5459-4735-b191-afeb2e636ccc/Lani.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Love to try new classes!",
+        "content": "I love to try new classes without an audience!  I can truly dance like no ones watching.",
+        "user": "Anita",
+        "city": "New Jersey",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/472512cd-1e88-4c05-91c1-e1c12840883c/Canela.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Totally loving it!",
+        "content": "So I Got my mirror Beginning of May 2021 and Im so addicted. A year ago at 40 I had a pacemaker implanted and getting back active had been tough and a long recovery BUT here I am over 50 workouts in and totally loving it!",
+        "user": "Tasha",
+        "city": "North Carolina",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/177a286a-f49e-43a8-8dd9-d814d6ebd421/Tasha.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Unbeatable convenience",
+        "content": "It is so nice to have The Mirror at home so I can sneak in a workout while watching my little one. Truly nothing can beat the convenience.",
+        "user": "Courtney",
+        "city": "California",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/09/6f60e6d3-1ab1-4394-b877-bd8095a5a2b0/Courtney.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Convenience",
+    "reviews": [
+      {
+        "rating": 5,
+        "main": "Definite game changer",
+        "content": "The Mirror has been a definite game changer for my home workouts. The variety of class options and difficulty levels leaves no room for excuses, which is perfect for a busy mom like myself.",
+        "user": "Bree",
+        "city": "California",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/43/04/cce41305-55c0-4404-9934-116b2f7e02d3/Bree.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Push and encouragement",
+        "content": "The accomplishment  you feel when completing a class and the community really gives me that push and encouragement to show up every day.",
+        "user": "Darleen",
+        "city": "Arizona",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/43/04/bba1b7da-858e-40ce-8255-f7cf21d02eb1/Darleen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Community",
+    "reviews": [
+      {
+        "rating": 5,
+        "main": "My whole life changed",
+        "content": "When quarantine hit, I decided to put all of my effort into working on myself; mentally and physically. Mirror is a great tool for both. I got stronger, lost weight, and found emotional motivation to keep going. My whole life changed.",
+        "user": "Allison",
+        "city": "Minnesota",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/5765e33c-d96c-4a3a-8709-9e6713b1a466/Allison.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Helping me learn",
+        "content": "I've never been an athletic person so The Mirror is helping me learn about movement, how to use my body, how to become an athlete, and how to stay consistent.",
+        "user": "Lani",
+        "city": "Washington",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/d03af442-5459-4735-b191-afeb2e636ccc/Lani.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Love to try new classes!",
+        "content": "I love to try new classes without an audience!  I can truly dance like no ones watching.",
+        "user": "Anita",
+        "city": "New Jersey",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/472512cd-1e88-4c05-91c1-e1c12840883c/Canela.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Totally loving it!",
+        "content": "So I Got my mirror Beginning of May 2021 and Im so addicted. A year ago at 40 I had a pacemaker implanted and getting back active had been tough and a long recovery BUT here I am over 50 workouts in and totally loving it!",
+        "user": "Tasha",
+        "city": "North Carolina",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/177a286a-f49e-43a8-8dd9-d814d6ebd421/Tasha.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Unbeatable convenience",
+        "content": "It is so nice to have The Mirror at home so I can sneak in a workout while watching my little one. Truly nothing can beat the convenience.",
+        "user": "Courtney",
+        "city": "California",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/09/6f60e6d3-1ab1-4394-b877-bd8095a5a2b0/Courtney.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Member Experience",
+    "reviews": [
+      {
+        "rating": 5,
+        "main": "Definite game changer",
+        "content": "The Mirror has been a definite game changer for my home workouts. The variety of class options and difficulty levels leaves no room for excuses, which is perfect for a busy mom like myself.",
+        "user": "Bree",
+        "city": "California",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/43/04/cce41305-55c0-4404-9934-116b2f7e02d3/Bree.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Push and encouragement",
+        "content": "The accomplishment  you feel when completing a class and the community really gives me that push and encouragement to show up every day.",
+        "user": "Darleen",
+        "city": "Arizona",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/43/04/bba1b7da-858e-40ce-8255-f7cf21d02eb1/Darleen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Aesthetic",
+    "reviews": [
+      {
+        "rating": 5,
+        "main": "My whole life changed",
+        "content": "When quarantine hit, I decided to put all of my effort into working on myself; mentally and physically. Mirror is a great tool for both. I got stronger, lost weight, and found emotional motivation to keep going. My whole life changed.",
+        "user": "Allison",
+        "city": "Minnesota",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/5765e33c-d96c-4a3a-8709-9e6713b1a466/Allison.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Helping me learn",
+        "content": "I've never been an athletic person so The Mirror is helping me learn about movement, how to use my body, how to become an athlete, and how to stay consistent.",
+        "user": "Lani",
+        "city": "Washington",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/d03af442-5459-4735-b191-afeb2e636ccc/Lani.jpg"
+      },
+      {
+        "rating": 5,
+        "main": "Love to try new classes!",
+        "content": "I love to try new classes without an audience!  I can truly dance like no ones watching.",
+        "user": "Anita",
+        "city": "New Jersey",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/472512cd-1e88-4c05-91c1-e1c12840883c/Canela.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Totally loving it!",
+        "content": "So I Got my mirror Beginning of May 2021 and Im so addicted. A year ago at 40 I had a pacemaker implanted and getting back active had been tough and a long recovery BUT here I am over 50 workouts in and totally loving it!",
+        "user": "Tasha",
+        "city": "North Carolina",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/08/177a286a-f49e-43a8-8dd9-d814d6ebd421/Tasha.jpg"
+      },
+      {
+        "rating": 4,
+        "main": "Unbeatable convenience",
+        "content": "It is so nice to have The Mirror at home so I can sneak in a workout while watching my little one. Truly nothing can beat the convenience.",
+        "user": "Courtney",
+        "city": "California",
+        "img": "https://res.cloudinary.com/themirror/image/upload/v1/ecom/production/2021/11/11/04/42/09/6f60e6d3-1ab1-4394-b877-bd8095a5a2b0/Courtney.jpg"
+      }
+    ]
+  }
+]
