@@ -1,0 +1,32 @@
+.reviews-con {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.review-card-con {
+  background: rgb(244, 244, 244);
+  padding: 50px 30px;
+  width: 350px;
+}
+.stars {
+  margin-left: 46%;
+}
+.review-titles-con {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.review-title {
+  width: fit-content;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.15;
+  margin-left: 80px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 200ms;
+}
+.review-title-clicked {
+  border-bottom: 2px solid black;
+}
+.review-title:hover {
+  color: grey;
+}

@@ -16,6 +16,7 @@ import ShoppingItems from "../components/ShoppingItems";
 import StartingVideo from "../components/StartingVideo";
 import VideoModal from "../components/VideoModal";
 import ServiceModal from "../components/ServiceModal";
+import Reviews from "../components/Reviews";
 
 function Home() {
   const [modal1Open, setModal1Open] = useState(false);
@@ -81,6 +82,7 @@ function Home() {
       />
       <Banner title="All used to create a personalized fitness plan just for you." />
       <MembershipBanner />
+      <Reviews />
       <LookBanner />
       <Services handleOpenModal={handleOpen2Modal} />
       <ShoppingItems />
