@@ -1,6 +1,6 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import "../styles/reviews.css";
+import "../../styles/reviews.css";
 
 function ReviewCard({ review }) {
   const { rating, main, content, user, city, img } = review;

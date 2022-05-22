@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/banner.css";
 import Button from "../components/common/Button";
+import BannerContainer from "./common/BannerContainer";
+import "../styles/banner.css";
 
-function Banner() {
+function WorkoutsBanner() {
   return (
-    <div className="container con">
+    <BannerContainer>
       <div className="row">
         <div className="col-12">
           <h2 className="text text-center">
@@ -21,8 +22,8 @@ function Banner() {
           />
         </div>
       </div>
-    </div>
+    </BannerContainer>
   );
 }
 
-export default Banner;
+export default WorkoutsBanner;
