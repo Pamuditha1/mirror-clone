@@ -41,8 +41,8 @@ function ReviewsCards({ title }) {
       >
         {reviews
           .find((review) => review.title === title)
-          ?.reviews.map(({ id, ...review }) => (
-            <ReviewCard key={id} review={review} />
+          ?.reviews.map(({ main, ...review }) => (
+            <ReviewCard key={main} review={review} />
           ))}
       </ScrollMenu>
     </div>

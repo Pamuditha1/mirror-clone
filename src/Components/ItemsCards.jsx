@@ -7,10 +7,8 @@ function ItemsCards() {
   return (
     <div className="row mt-5">
       {items.map(({ id, img, title, price, priceText, includes }) => (
-        <div className="col-3  mr-2 ml-2">
-          {" "}
+        <div key={id} className="col-3  mr-2 ml-2">
           <ItemCard
-            key={id}
             img={img}
             title={title}
             price={price}
