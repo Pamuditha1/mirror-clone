@@ -20,7 +20,6 @@
   position: relative;
   width: fit-content;
   will-change: transform;
-  /* animation: 15s linear 0s infinite normal none running ticker; */
   animation: mover 45s infinite linear;
 }
 @keyframes mover {
@@ -40,10 +39,8 @@
   font-style: italic;
   font-weight: bold;
   text-transform: none;
-  /* padding: 0px 10px; */
   white-space: nowrap;
   width: 25%;
-  /* flex: 0 0 25%; */
 }
 
 .visually-hidden {
@@ -95,8 +92,6 @@
   background-color: #f4f4f4;
   border: 0px;
   margin-left: 20px;
-  /* width: 30px;
-  height: 30px; */
   display: flex;
   -webkit-box-align: center;
   align-items: center;

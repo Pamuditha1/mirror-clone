@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import ReviewsCards from "./ReviewsCards";
 import ReactStars from "react-rating-stars-component";
-import "../styles/reviews.css";
+import ReviewsCards from "./ReviewsCards";
 import Button from "./common/Button";
+import "../styles/reviews.css";
 
 const reviewTitles = [
   "Workouts",
@@ -17,7 +17,7 @@ function Reviews() {
   return (
     <div className="reviews-con">
       <div className="row text-center">
-        <div className=" stars">
+        <div className="stars">
           <ReactStars
             edit={false}
             count={5}
@@ -34,6 +34,7 @@ function Reviews() {
       <div className="row review-titles-con mt-5 mb-3">
         {reviewTitles.map((reviewTitle) => (
           <div
+            key={reviewTitle}
             className={`review-title ${
               reviewTitle === title ? "review-title-clicked" : ""
             }`}

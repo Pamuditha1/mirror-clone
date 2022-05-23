@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./common/Button";
-import "../styles/items.css";
+import Button from "../common/Button";
+import "../../styles/items.css";
 
 function ItemCard({ img, title, price, priceText, includes }) {
   return (
@@ -29,7 +29,9 @@ function ItemCard({ img, title, price, priceText, includes }) {
       <div className="row item-card-row includes-r text-center pt-4 pb-5">
         <h6 className="mb-3">Includes</h6>
         {includes.map((i) => (
-          <small className="small-txt">{i}</small>
+          <small key={i} className="small-txt">
+            {i}
+          </small>
         ))}
       </div>
     </div>

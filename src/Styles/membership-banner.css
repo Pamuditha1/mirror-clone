@@ -13,7 +13,6 @@
   position: relative;
   width: fit-content;
   will-change: transform;
-  /* animation: 15s linear 0s infinite normal none running ticker; */
   animation: mover 35s infinite linear;
 }
 @keyframes mover {

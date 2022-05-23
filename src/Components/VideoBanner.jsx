@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import videos from "../data/living-room-videos.json";
-import "../styles/video-banner.css";
 import VideoContainer from "./common/VideoContainer";
+import "../styles/video-banner.css";
+
+import videos from "../data/living-room-videos.json";
 
 const buttons = [
   {

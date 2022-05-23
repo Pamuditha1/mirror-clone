@@ -1,5 +1,5 @@
 import React from "react";
-import Modal from "./Modal";
+import Modal from "../common/Modal";
 
 function VideoModal({ modalOpen, handleOpenModal, handleCloseModal }) {
   return (
@@ -13,8 +13,8 @@ function VideoModal({ modalOpen, handleOpenModal, handleCloseModal }) {
         src="https://player.vimeo.com/video/642372830?h=dab7b74863"
         width="906"
         height="511"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       ></iframe>
     </Modal>
   );

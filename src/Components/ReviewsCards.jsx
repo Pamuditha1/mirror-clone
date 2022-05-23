@@ -1,8 +1,9 @@
 import React from "react";
-import ReviewCard from "./ReviewCard";
-import reviews from "../data/reviews.json";
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
-import useDrag from "./useDrag";
+import ReviewCard from "./cards/ReviewCard";
+import useDrag from "./utils/useDrag";
+
+import reviews from "../data/reviews.json";
 
 function onWheel(apiObj, ev) {
   const isThouchpad = Math.abs(ev.deltaX) !== 0 || Math.abs(ev.deltaY) < 15;
@@ -40,8 +41,8 @@ function ReviewsCards({ title }) {
       >
         {reviews
           .find((review) => review.title === title)
-          ?.reviews.map(({ id, ...review }) => (
-            <ReviewCard key={id} review={review} />
+          ?.reviews.map(({ main, ...review }) => (
+            <ReviewCard key={main} review={review} />
           ))}
       </ScrollMenu>
     </div>

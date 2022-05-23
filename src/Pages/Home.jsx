@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import Banner2 from "../components/Banner2";
-import Banner1 from "../components/Banner1";
+
+import DescribeBanner from "../components/DescribeBanner";
+import WorkoutsBanner from "../components/WorkoutsBanner";
 import VideoImage from "../components/VideoImage";
-import Sider from "../components/Sider";
+import Slider from "../components/Slider";
 import VideoBanner from "../components/VideoBanner";
 import VideoContainer from "../components/common/VideoContainer";
 import Banner from "../components/common/Banner";
@@ -14,8 +15,8 @@ import MembershipBanner from "../components/MembershipBanner";
 import Services from "../components/Services";
 import ShoppingItems from "../components/ShoppingItems";
 import StartingVideo from "../components/StartingVideo";
-import VideoModal from "../components/VideoModal";
-import ServiceModal from "../components/ServiceModal";
+import VideoModal from "../components/modals/VideoModal";
+import ServiceModal from "../components/modals/ServiceModal";
 import Reviews from "../components/Reviews";
 
 function Home() {
@@ -31,7 +32,6 @@ function Home() {
   };
 
   const handleOpen2Modal = ({ title, des }) => {
-    console.log("called");
     setModal2({ open: true, title, des });
   };
 
@@ -42,19 +42,19 @@ function Home() {
   return (
     <>
       <StartingVideo />
-      <Banner1 />
+      <DescribeBanner />
       <VideoImage
         modalOpen={modal1Open}
         handleOpenModal={handleOpen1Modal}
         handleCloseModal={handleClose1Modal}
       />
-      <Banner2 />
+      <WorkoutsBanner />
       <Banner
         title="Taught by the best instructors in the world."
         bText="Meet our instructors"
         bLink="https://www.mirror.co/instructors"
       />
-      <Sider />
+      <Slider />
       <VideoBanner />
       <Banner
         subTitle="PROGRESS TRACKING"

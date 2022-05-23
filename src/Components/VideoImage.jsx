@@ -1,8 +1,7 @@
 import React from "react";
 import backup from "../media/images/CommercialBackUp.webp";
-import "../styles/image-overlay.css";
-
 import { BsFillCaretRightFill } from "react-icons/bs";
+import "../styles/image-overlay.css";
 
 function VideoImage({ handleOpenModal }) {
   return (
